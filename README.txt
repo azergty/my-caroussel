@@ -62,7 +62,7 @@ Settings :
 
 
 
-How to use function in DOM angular : 
+#How to use function in DOM angular : 
 
 <input type="button"  ng-click="myCarrousselFonction.removeItem(0)" value="DELETE">
 <input type="button"  ng-click="myCarrousselFonction.startCarroussel()" value="START">
@@ -74,7 +74,7 @@ How to use function in DOM angular :
 
 
 
-How to use function in jquery :
+#How to use function in jquery :
 
     $("#mybutton").on('click',function(){
       var c = $("#id");
@@ -86,7 +86,7 @@ How to use function in jquery :
 
 
 
-FOR more information, create button and click. You will see some information on your debug tool about function.. :
+#FOR more information, create button and click. You will see some information on your debug tool about function.. :
   <input type="button"  ng-click="myCarrousselFonction.displayObject()" value="SHOW">
 
 
