@@ -1,0 +1,370 @@
+my-carroussel.js {
+	width: 100%;
+	display: block;
+}
+
+my-carroussel.js * {
+	-webkit-user-select: none !important;
+	-moz-user-select: none !important;
+	-o-user-select: none !important;
+	user-select: none !important;
+}
+
+my-carroussel.js  .container-carroussel {
+	position: relative;
+	display: block;
+	z-index: 0;
+	width: 100%;
+}
+
+my-carroussel.js  .container-carroussel.margin-dot {
+	margin-bottom: 40px;
+}
+
+my-carroussel.js .container-slide {
+	overflow: hidden;
+	position: relative;
+	display: block;
+	float: left;
+	height: 100%;
+}
+
+my-carroussel.js .container-slick-bar {
+	width: 100%;
+	position: relative;
+	height: 100%;
+	transform-style: preserve-3d;
+}
+
+my-carroussel.js .float {
+	float: left;
+}
+
+my-carroussel.js .container-slick-item {
+	margin: 20px 0px 20px 0px;
+	background-color: #fff;
+	background-color: var(--bg-theme-color);
+	position: absolute;
+	transition-property: all;
+}
+
+my-carroussel.js .CARROU-2 .slide-link.effect-carrou-2:hover {
+	filter: brightness(100%)!important;
+	transform: scale(1.05)!important;
+	transition: 400ms;
+}
+
+my-carroussel.js .transform-origin-right {
+	transform-origin: right;
+}
+
+my-carroussel.js .transform-origin-left {
+	transform-origin: left;
+}
+
+my-carroussel.js  .photo-slick-item {
+	width: 100%;
+	height: 100%;
+}
+
+my-carroussel.js  .container-btn-right>.btn-carroussel {
+	margin-left: auto;
+}
+
+my-carroussel.js  .container-btn-right,
+my-carroussel.js  .container-btn-left {
+	display: block;
+	width: 34px;
+	z-index: 3;
+	height: 100%;
+	position: relative;
+	float: left;
+}
+
+my-carroussel.js .slide-shadow {
+	overflow: hidden;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 0;
+	height: 100%;
+}
+
+my-carroussel.js .slide-shadow-first {
+	box-shadow: 0 6px 16px rgba(0,0,0,.2),0 0 4px rgba(0,0,0,.04)!important;
+}
+
+my-carroussel.js .slide-shadow-second {
+	box-shadow: 0 6px 16px rgba(0,0,0,.5),0 0 4px rgba(0,0,0,.4)!important;
+}
+
+my-carroussel.js  .carroussel-lockContainerBtn.container-btn-right,
+my-carroussel.js  .carroussel-lockContainerBtn.container-btn-left {
+	position: absolute;
+	top: 0px;
+	display: block;
+	z-index: 20;
+}
+
+my-carroussel.js  .carroussel-lockContainerBtn.container-btn-right {
+	right: 0px;
+}
+
+my-carroussel.js  .carroussel-lockContainerBtn.container-btn-left {
+	left: 0px;
+}
+
+my-carroussel.js  .carroussel-lockContainerBtn.container-btn-right:hover,
+my-carroussel.js  .carroussel-lockContainerBtn.container-btn-left:hover {
+	background-color: rgba(255,255,255,0.4);
+}
+
+my-carroussel.js .slide-link {
+	display: block;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+my-carroussel.js .CARROU-1 .container-slide-text {
+	width: 100%;
+	overflow: hidden;
+	padding: 10px;
+	margin: 0px;
+	background-color: #fff;
+	color: #0e0e10;
+	position: relative;
+}
+
+my-carroussel.js .CARROU-2 .container-slide-text {
+	overflow: hidden;
+	padding: 10px;
+	margin: 0px;
+	background-color: #fff;
+	position: absolute;
+	top: 0px;
+	color: #0e0e10;
+}
+
+my-carroussel.js .CARROU-2 .container-slide-text.touch.slide-show-left-effect-text {
+	left: 100%;
+	opacity: 1;
+	transition: opacity 250ms;
+}
+
+my-carroussel.js .CARROU-2 .container-slide-text.touch.slide-show-right-effect-text {
+	left: 100%;
+	opacity: 1;
+	transition: opacity 50ms;
+}
+
+my-carroussel.js .container-slide-text.carrou-2.drag-touch.slide-show-left-effect-text,
+my-carroussel.js .container-slide-text.carrou-2.drag-touch.slide-show-right-effect-text {
+	left: 100%;
+	opacity: 1;
+	transition: opacity 0ms;
+}
+
+my-carroussel.js .CARROU-2 .container-slide-text.slide-hide-effect-text {
+	right: 0px;
+	opacity: 0;
+	transition: opacity 0ms;
+	z-index: -1;
+}
+
+my-carroussel.js  .slide-text-content {
+	padding: 5px;
+	line-height: 25px;
+	margin: 0px;
+	overflow: hidden;
+	font-size: 13px;
+}
+
+my-carroussel.js  .slide-text-metadata {
+	position: absolute;
+	width: 100%;
+	height: 36px;
+	background: linear-gradient(180deg,hsla(0,0%,100%,0) 0,hsla(0,0%,100%,.9) 75%,#fff 80%,#fff);
+	bottom: 0px;
+	left: 0px;
+}
+
+my-carroussel.js  .btn-carroussel {
+	cursor: pointer;
+	z-index: 5;
+	display: block;
+	width: 34px;
+	height: 34px;
+	outline: none;
+	border-radius: 6px;
+	position: absolute;
+	top: 50%;
+	margin-top: -17px;
+}
+
+my-carroussel.js  .btn-carroussel:hover {
+	background-color: rgba(0,0,0,0.1);
+}
+
+my-carroussel.js  .svg-btn-carroussel {
+	fill: #e0e0e10;
+}
+
+my-carroussel.js  .btn-carroussel:hover >.svg-btn-carroussel {
+	opacity: 1;
+}
+
+my-carroussel.js  .container-slide-title {
+	position: absolute;
+	bottom: 46px;
+	width: 100%;
+	text-align: center;
+	font-weight: 400;
+	color: #fefefe;
+	text-shadow: 1px 1px 2px black;
+	font-size: 14px;
+}
+
+my-carroussel.js  .container-dot {
+	-webkit-user-select: none !important;
+	-moz-user-select: none !important;
+	-o-user-select: none !important;
+	user-select: none !important;
+	padding: 10px 0px;
+	width: 100%;
+	height: 20px;
+	display: block;
+	text-align: center;
+}
+
+my-carroussel.js  .dot-dot,
+my-carroussel.js .dot-carre,
+my-carroussel.js .dot-rectangle {
+	display: inline-block;
+	background-color: #bbb;
+	transition: background-color 0.6s ease;
+	margin-left: 4px;
+	margin-right: 4px;
+	cursor: pointer;
+}
+
+my-carroussel.js  .dot-dot {
+	height: 16px;
+	width: 16px;
+	border-radius: 50%;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+my-carroussel.js .dot-carre {
+	height: 16px;
+	width: 16px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+my-carroussel.js .dot-rectangle {
+	height: 6px;
+	width: 35px;
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
+
+my-carroussel.js .dot-rectangle.dot-active,
+my-carroussel.js .dot-carre.dot-active,
+my-carroussel.js .dot-dot.dot-active {
+	background-color: #717171;
+}
+
+my-carroussel.js .dot-rectangle:hover,
+my-carroussel.js .dot-carre:hover,
+my-carroussel.js .dot-dot:hover {
+	background-color: #717171;
+}
+
+my-carroussel.js .dragging {
+	cursor: grabbing !important;
+}
+
+my-carroussel.js .dragging *:not(.dot-container-rectangle):not(.dot-container-dot):not(.dot-container-carre) {
+	cursor: grabbing !important;
+	-webkit-user-select: none !important;
+	-moz-user-select: none !important;
+	-o-user-select: none !important;
+	user-select: none !important;
+}
+
+my-carroussel:not(.js) {
+	width: 100%;
+	display: block;
+	position: relative;
+	overflow: hidden;
+	height: 547px;
+}
+
+my-carroussel:not(.js) .container-slide {
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+}
+
+my-carroussel:not(.js) .slide-item {
+	display: flex;
+	flex-direction: column;
+	padding: 5px;
+	width: 310px;
+	justify-content: center;
+}
+
+my-carroussel:not(.js) .slide-link {
+	width: 300px;
+	height: 200px;
+	position: relative;
+}
+
+my-carroussel:not(.js) .slide-img {
+	width: 100%;
+	height: 100%;
+}
+
+my-carroussel:not(.js) .slide-title {
+	position: absolute;
+	bottom: 10px;
+	text-align: center;
+	width: 100%;
+	font-size: 15px;
+	font-weight: bold;
+	color: #fff;
+}
+
+my-carroussel:not(.js) .slide-text {
+	max-height: 347px;
+	line-height: 27px;
+	text-align: justify;
+	padding: 5px 5px 15px 5px;
+	overflow: hidden;
+}
+
+my-carroussel:not(.js)  .slide-text-title {
+	padding: 10px 0px;
+	font-size: 15px;
+}
+
+my-carroussel:not(.js)  .slide-text-content {
+	padding: 5px;
+	font-size: 14px;
+	max-height: 280px;
+	overflow: hidden;
+}
+
+@media screen and (max-width: 576px) {
+	my-carroussel:not(.js) .slide-link {
+		width: 453px;
+		max-height: 302px;
+		position: relative;
+	}
+
+	my-carroussel:not(.js) {
+		height: 649px;
+	}
+}
