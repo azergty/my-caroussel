@@ -1,4 +1,4 @@
-# my-caroussel for Angular 
+# my-carroussel for Angular 
 
 Angular 1.6.9 => https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.9/angular.min.js
 Jquery 3.4.1 => https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js
